@@ -1,3 +1,11 @@
+/* Base Settings */
+
+body {
+  margin: 0;
+}
+
+/* Navigation bar */
+
 .topbar {
     background-color: #333;
     overflow: hidden;
@@ -15,6 +23,7 @@
 .topbar a:hover {
     background-color: green;
     color: #ddd;
+    cursor: pointer;
 }
 
 .topbar a.current {
@@ -25,3 +34,39 @@
     float: left;
 }
 
+/* Heroing Front Page */
+
+body h1 {
+    font-size: 50px;
+}
+
+.name p {
+    font-size: 25px;
+}
+
+.image {
+    background-image: url("/imgs/mountain-view.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100svh;    
+}
+
+.name { 
+    color: rgb(97, 21, 21);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.name button {
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    cursor: pointer;
+    outline: 0;
+    color: rgb(97, 21, 21);
+    text-align: center;
+    display: inline;
+}
