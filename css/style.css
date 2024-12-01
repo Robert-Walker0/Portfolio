@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  background-color: blanchedalmond;
+  background-color: #3c8d0d;
+  font-family: Arial, sans-serif;
 }
 
 hr { 
@@ -59,7 +60,6 @@ body h1 {
 
 
 .name { 
-    color: rgb(97, 21, 21);
     text-align: center;
     top: 50%;
     left: 50%;
@@ -73,53 +73,64 @@ body h1 {
     padding: 10px 25px;
     cursor: pointer;
     outline: 0;
-    color: rgb(97, 21, 21);
     text-align: center;
     display: inline;
 }
 
 /* About section */
 .about {
-    background: blanchedalmond;
-    margin: 0px;
+    padding: 2em 1em;
 }
 
 blockquote {
-    padding: 0.5 1em;
-    line-height: 2.6;
-    font-size: 1.4em;
-    width:60%;
-    margin:50px auto;
-    font-style:italic;
-    padding:1.2em 30px 1.2em 75px;
-    border-left:8px solid #333;
-    line-height:1.6;
+    padding: 1.5em 2em;
+    line-height: 1.8;
+    font-size: 1.2em;
+    max-width: 1000px;
+    background-color: #F5F5F5;
+    font-style: italic;
+    border-left: 6px solid #f00;
+    border-radius: 16px;
     position: relative;
-    background:#EDEDED;
+    margin: 2em auto;
 }
 
 blockquote span {
     display: block;
-    color: #333;
+    margin-top: 2em;
+    color: black;
     font-weight: bold;
     font-style: normal;
-    margin-top: 1em;
+    text-align: right;
 }
 
 .about h2 {
-     margin: 0px;
-    color: black;
-    padding: 4px;
-    text-align: center;
+    margin: 0;
+    color: #222;
     text-decoration: underline;
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 2em;
 }
 
+.about p {
+    margin: 1em auto;
+    padding: 0 1.5em;
+    line-height: 2em;
+    color:  black;
+    font-size: 1.08em;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+/*
 .about p {
     margin: 0px;
     padding: 0.5em 1em;
     line-height: 2.6;
     font-size: 18px;
 }
+*/
 
 /* Footer section */
 .contact {
