@@ -1,0 +1,71 @@
+/* Base Settings */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: orange;
+  }
+  
+
+hr { 
+    margin: 0px;
+    border: 0px;
+}
+
+/* Navigation bar */
+
+.topbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topbar a:hover {
+    background-color: green;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.topbar a.current {
+    background-color: #04AA6D;
+}
+
+.topbar a.split {
+    float: left;
+}
+
+
+/* Footer section */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.contact th {
+    text-align: left;
+    font-size: 19px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover {
+    color: red;
+}
+
+.copyright { 
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
