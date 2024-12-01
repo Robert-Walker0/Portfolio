@@ -44,12 +44,34 @@ hr {
 
 /* Main section */
 
+/* Top of the Page */
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.github img {
+    max-width: 500px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Cards */
+
 .projects {
     width: 80%;
     margin: 50px auto;
     display: flex;
     justify-content: center;
+}
 
+.projects a {
+    text-decoration: none;
+    color: black;   
 }
 
 .project-card {
