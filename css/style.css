@@ -123,15 +123,6 @@ blockquote span {
     text-align: justify;
 }
 
-/*
-.about p {
-    margin: 0px;
-    padding: 0.5em 1em;
-    line-height: 2.6;
-    font-size: 18px;
-}
-*/
-
 /* Footer section */
 .contact {
     display: flex;
