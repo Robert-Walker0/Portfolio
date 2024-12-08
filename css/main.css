@@ -24,7 +24,7 @@ hr {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
 .topbar a:hover {
@@ -70,6 +70,7 @@ body h1 {
 .name button {
     border: none;
     font-weight: bold;
+    font-size: 0.9375rem;
     padding: 10px 25px;
     cursor: pointer;
     outline: 0;
@@ -118,7 +119,7 @@ blockquote span {
     padding: 0 1.5em;
     line-height: 2em;
     color:  black;
-    font-size: 1.08em;
+    font-size: 1.08rem;
     max-width: 1000px;
     text-align: justify;
 }
