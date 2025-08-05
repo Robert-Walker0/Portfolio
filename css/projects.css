@@ -93,8 +93,9 @@ hr {
 }
 
 .project-card img {
-    width: 100%;
-    height: auto;
+    width: 280px;
+    height: 250px;
+    --height: auto;
     margin-top: 2px;
     background-color: grey;
 }
